@@ -1,0 +1,147 @@
+/* COLORS:
+#0a1128
+#001f54
+#034078
+#1282a2
+#fefcfb */
+
+body {
+    text-align: center;
+    margin: 0;
+    background: #001f54;
+    font-family: "Roboto", sans-serif;
+}
+/* Prvi div: Visit vinica  */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/vinica-zrak.jpg");
+    background-size: cover;
+    padding-bottom: 180px;
+}
+
+.title {
+    text-shadow: 0 0 1px black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fefcfb;
+    
+}
+
+h1 {
+    font-size: 40px;
+    margin: 150px 0 5px 0;
+    background: #001f54;
+    font-family: "PT Serif", serif;
+    font-size: 60px;
+}
+
+#description {
+    font-size: 25px;
+    margin-top: 10px;
+    background: #001f54;
+    font-family: "PT Serif", serif;
+    font-size: 18px;
+    width: 450px;
+}
+
+/* drugi div: three things to do in Vinica */
+
+#activities {
+    background-color: #001f54;
+    color: #fefcfb;
+    text-shadow: 0 0 1px black;
+}
+
+.activities-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.activity {
+    width: 250px;
+}
+
+.grb-img {
+    width: 250px;
+    border: 6px solid #1282a2;
+    border-radius: 50%;
+}
+
+#img-kolpa:hover {
+    content: url("images/kolpa.jpg");
+    width: 250px;
+    border: 6px solid #1282a2;
+    border-radius: 50%;
+}
+
+#img-narava:hover {
+    content: url("images/kozice-zima.jpg");
+    width: 250px;
+    border: 6px solid #1282a2;
+    border-radius: 50%;
+
+}#img-morje:hover {
+    content: url("images/morje-iz-zraka.jpg");
+    width: 250px;
+    border: 6px solid #1282a2;
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 40px;
+    background-color: #001f54;
+    margin-top: 50px;
+    font-family: "PT Serif", serif;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+}
+
+p {
+    font-family: "PT Serif", serif;
+}
+
+/* Tretji div: Yout guide */
+
+.guide {
+    background: #034078;
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    color: #fefcfb;
+    text-shadow: 0 0 1px black;
+    border-bottom: 10px solid #0a1128;
+}
+
+#guide-background {
+    background: #fefcfb;
+    padding: 30px;
+}
+
+#profile-img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+#naslov-guide {
+    font-family: "PT Serif", serif;
+    font-size: 35px;
+}
+
+#besedilo-guide {
+    font-family: "PT Serif", serif;
+    padding: 0 40px;
+}
+
+h5 {
+    font-family: "PT Serif", serif;
+    font-size: 25px;
+}
